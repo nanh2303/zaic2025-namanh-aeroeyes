@@ -1,0 +1,1 @@
+ultralytics scikit-learn numpy<2.0 opencv-python torch torchvision Pillow tqdm
