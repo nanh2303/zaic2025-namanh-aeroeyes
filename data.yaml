@@ -1,0 +1,9 @@
+
+train: /kaggle/working/yolo_dataset/images/train
+val: /kaggle/working/yolo_dataset/images/val
+
+# number of classes
+nc: 7
+
+# class names
+names: ['Backpack', 'Jacket', 'Laptop', 'Lifering', 'MobilePhone', 'Person1', 'WaterBottle']

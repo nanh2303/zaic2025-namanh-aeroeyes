@@ -5,7 +5,7 @@ This is the repository storing the source code of Nguyen Nam Anh's model attendi
 
 ## 🏆 Competition and Objective
 
-This project represents the solution developed for the **Zindi Africa Innovation Challenge (ZAIC) 2025: AeroEyes** competition. The core task is a challenging **Few-Shot Object Tracking** problem:
+This project represents the solution developed for the **Zalo AI Challenge (ZAIC) 2025: AeroEyes** competition. The core task is a challenging **Few-Shot Object Tracking** problem:
 * Given a small set of **support images** of an unknown object.
 * The system must detect and track that object throughout a long, unseen drone video.
 
@@ -57,10 +57,7 @@ The Chaser takes over immediately after a successful spot and runs on every fram
 | `EMBED\_SIM\_THRESHOLD` | $0.30$ | Cosine similarity threshold for verification. |
 | `MIN\_TRACK\_LENGTH\_FRAMES` | $5$ | Minimum required length for a Chaser track to be included in the final submission. |
 
-## 🛠️ Project Structure and Execution
-
-### File Structure
-ZAIC-AeroEyes-YOLO-Chaser/ ├── README.md <-- This file: documentation ├── requirements.txt <-- Python dependency list ├── zaic2025-namanh-aeroeyes-v1-5-training.ipynb <-- Main Codebase ├── data.yaml <-- YOLO dataset config └── runs/detect/train/weights/best.pt <-- Fine-tuned YOLO weights
+## 🛠️ Execution
 
 ### Installation
 
