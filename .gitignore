@@ -1,0 +1,29 @@
+---
+
+## 3. `.gitignore` (Exclusions) 🚫
+
+```gitignore
+# Python artifacts
+__pycache__
+*.pyc
+*.pyo
+
+# IDE/OS specific files
+.DS_Store
+.idea
+.vscode
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data and Logs
+submission.json
+yolo_dataset/
+
+# Model Weights and Training Logs (Crucial for ML projects)
+# Ignore the entire runs folder, but allow the single best model weight.
+/runs/
+!/runs/detect/train/weights/best.pt 
+
+# Temporary files
+*.tmp
